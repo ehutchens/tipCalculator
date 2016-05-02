@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
 public class TipController {
+	//Samm was here.
 	
 	@FXML 
 	private TextField amountTextField;
@@ -16,7 +17,7 @@ public class TipController {
 	private void calculateButtonPressed(ActionEvent event) {
 		Float mealAmount = Float.parseFloat(amountTextField.getText());
 		//20% increase
-		totalTextField.setText(String.valueOf(mealAmount * (1 + .20)));
+		totalTextField.setText(String.valueOf(mealAmount * (1 + .40))); //change
 	}
 	
 }
